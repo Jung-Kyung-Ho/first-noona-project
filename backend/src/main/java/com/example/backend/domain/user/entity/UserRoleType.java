@@ -11,5 +11,5 @@ public enum UserRoleType {
 
     ADMIN: 관리자
 
-    Spring Security와 연동할 때 이 값을 바탕으로 특정 페이지에 대한 접근 권한을 제어하게 됩니다.
+    Spring Security와 연동할 때 이 값을 바탕으로 특정 페이지에 대한 접근 권한을 제어하게 됩니다. 
 */

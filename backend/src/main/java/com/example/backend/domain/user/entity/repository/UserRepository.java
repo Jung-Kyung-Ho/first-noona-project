@@ -7,7 +7,7 @@ import com.example.backend.domain.user.entity.UserEntity;
 public interface UserRepository extends JpaRepository<UserEntity, Long>{
     /* 
     1. 코드의 구성 요소 설명
-        public interface UserRepository: 이 클래스는 실제 구현체가 아닌 인터페이스로 선언됩니다. Spring Data JPA가 실행 시점에 이 인터페이스의 구현체를 자동으로 생성해줍니다.
+        public interface UserRepository: 이 클래스는 실제 구현체가 아닌 인터페이스로 선언됩니다. Spring Data JPA가 실행 시점에 이 인터페이스의 구현체를 자동으로 생성해줍니다. 
 
         extends JpaRepository<UserEntity, Long>:
 

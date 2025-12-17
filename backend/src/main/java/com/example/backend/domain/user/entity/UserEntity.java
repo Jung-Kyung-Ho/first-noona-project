@@ -86,7 +86,7 @@ public class UserEntity {
 
     @NoArgsConstructor (기본 생성자):
 
-    파라미터가 없는 생성자(예: public UserEntity() {})를 자동으로 만듭니다.
+    파라미터가 없는 생성자(예: public UserEntity() {})를 자동으로 만듭니다. 
 
     JPA 엔티티에서 필수: JPA는 데이터베이스에서 조회한 데이터를 객체로 만들 때 이 기본 생성자를 사용합니다. 따라서 엔티티 클래스에는 반드시 이 어노테이션이 있어야 합니다.
 

@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 public class JpaAuditingConfig {
     /*
     Spring Data JPA의 Auditing(감사) 기능을 활성화하기 위해 사용됩니다.
-    쉽게 설명하자면, 데이터베이스의 레코드가 **'언제 생성되었는지'**와 **'언제 수정되었는지'**를 개발자가 매번 코드로 직접 넣지 않아도 Spring이 자동으로 관리하게 해주는 설정입니다.
+    쉽게 설명하자면, 데이터베이스의 레코드가 **'언제 생성되었는지'**와 **'언제 수정되었는지'**를 개발자가 매번 코드로 직접 넣지 않아도 Spring이 자동으로 관리하게 해주는 설정입니다. 
 
     1. 주요 어노테이션의 역할
     @Configuration: 이 클래스가 Spring의 설정 정보를 담고 있는 클래스임을 선언합니다.
